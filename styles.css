@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* beige background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.outer-container {
+  border: 2px solid #0b232c; /* dark blue border */
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #a9a9aa; /* light grey color */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #56c6f3; /* light blue background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #4682b4; /* darker blue */
+}
+
+.hidden {
+  display: none;
+}
+
+#message-board {
+  margin-top: 20px;
+}
+
+#messages-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#messages-list li {
+  background-color: #ffffff; /* beige background */
+  border: 1px solid #56c6f3;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+#error-message {
+  color: rgb(58, 56, 56);
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #56c6f3; /* light blue background */
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}

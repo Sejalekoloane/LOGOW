@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="outer-container">
+      <div id="name-form-container" class="container">
+        <h1>Enter Your Full Name</h1>
+        <input type="text" id="name-input" placeholder="Your Name & surname" />
+        <button id="submit-name-button">Submit</button>
+        <p id="error-message" class="hidden">
+          Please enter your name to proceed.
+        </p>
+      </div>
+
+      <div id="main-content" class="container hidden">
+        <h1>Happy Birthday my dawwwwwggggggg!💌</h1>
+        <p>Hope you have a blast celebrating another year of life💙</p>
+        <button id="surprise-button">Click for a Surprise message</button>
+        <div id="surprise-message" class="hidden">
+          <p>You are the best brother ever! (I don't want it to go unsaid)❤️</p>
+        </div>
+        <div id="message-board">
+          <h2>Messages from yout Lil Sister</h2>
+          <ul id="messages-list">
+            <!-- Messages will be inserted here by JavaScript -->
+          </ul>
+        </div>
+      </div>
+
+      <div id="sorry-message" class="container hidden">
+        <h1>Sorry, this page is only for Tummy Lekoloane.</h1>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; coded by Seja Lekoloane</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
